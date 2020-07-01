@@ -1,5 +1,4 @@
 /* ################################ global css ######################################### */
-
 body{
     margin:0;
     padding:0;
@@ -43,6 +42,7 @@ img{
     background-image:linear-gradient(45deg, #fc5e92, #ff0055);
 }
 /* *********************************** global css  ***************************************** */
+
 
 
 /*   ################################  Top introductory section   ################### */
@@ -99,6 +99,30 @@ img{
 
 
 
+
+ /* ######################## Extra Work for Getting Bonus ################  */
+ .project-history{
+    height: 10rem;
+    background-image: linear-gradient(45deg, #fc5e92, #ff0055);
+    padding: 3rem;
+}
+.project-history .part-1-of-3-part{
+    text-align:center;
+    font-weight: 700;
+    color: white;
+    line-height: 0.7;
+}
+.project-history .part-1-of-3-part h2{
+    font-size:3rem;
+}
+.project-history .part-1-of-3-part h3{
+    font-size:1.5rem;
+}
+ /* **************************Extra Work for Getting Bonus*******************  */
+
+
+
+
 /* ############## Testimonial Section ########################## */
 .testimonial-section{
     background-image: url("images/footer-bg.png");
@@ -128,7 +152,10 @@ img{
 /* ************** Testimonial Section ************************** */
 
 
+
+/*  #################### Footer ########################## */
 footer{
     text-align: center;
     font-size: 12px;
 }
+/* ********************* Footer ************************ */
