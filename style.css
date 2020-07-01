@@ -1,0 +1,134 @@
+/* ################################ global css ######################################### */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 40rem;
+    padding-top: 4rem;
+}
+h1{
+    font-size: 3rem;
+    
+}
+h2{
+    font-size:2.5rem;
+    font-weight: 400;
+    line-height: 1;
+}
+p{
+    color: dimgray;
+}
+img{
+    width: 100%;
+}
+.text-gray-bold{
+    color: #292929;
+    font-weight: 600;
+}
+
+.pink-highlight{
+    color: #fc5e92;
+    font-weight: 900;
+}
+.link-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    padding:8px 25px;
+    border-radius: 5px;
+    background-image:linear-gradient(45deg, #fc5e92, #ff0055);
+}
+/* *********************************** global css  ***************************************** */
+
+
+/*   ################################  Top introductory section   ################### */
+.top-introductory-section{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-width p{
+    margin-bottom: 2.5rem;
+    text-align: justify;
+}
+/* ********************** Top introductory section **************************** */
+
+
+
+/* ########################## Biography Section ########################### */
+.biography-section{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* *********************** Biography Section  ***************************/
+
+
+
+/* ########################## Latest Work Section ########################### */
+.latest-work-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 30rem;
+}
+.latest-work-section h2{
+    text-align: center;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+.part-1-of-3-part{
+    width: 30%;
+    float: left;
+    margin: 0 1% 0 2%;
+}
+/* *********************** Latest Work Section  ***************************/
+
+
+
+/* ############## Testimonial Section ########################## */
+.testimonial-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 38rem;
+    background-size: 100%;
+}
+.full-width{
+    text-align: center;
+    margin-top:6rem;
+}
+.full-width h3{
+    font-size: 22px;
+    margin-top: 4rem;
+}
+.full-width .link-button {
+    width:400px;
+    margin: 3rem auto;
+    padding: 20px 50px;
+}
+.full-width .link-button a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+/* ************** Testimonial Section ************************** */
+
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
